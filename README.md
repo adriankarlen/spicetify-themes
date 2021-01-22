@@ -15,7 +15,7 @@ cd spicetify-themes
 cp -r * ~/.config/spicetify/Themes
 ```
   
-**NOTE: to install Dribbblish and DribblishDynamic follow the instructions in its README**.  
+**NOTE: to install Dribbblish and DribbblishDynamic follow the instructions in its README**.  
   
 After that you can choose which theme to apply just by running `spicetify config current_theme THEME_NAME`. 
 Some themes have 2 or more different color schemes. You can switch between them, once selected the theme, with `spicetify config color_scheme SCHEME_NAME`.
@@ -26,14 +26,14 @@ If you want to add your theme:
 
 - Fork this repository
 - Create another folder with your theme name. The theme name should consist of one word starting with an uppercase letter and shouldn't contain `spicetify` or any whitespace in it; if a "-" is present in the name it must be followed by an uppercase letter.
-- Copy `color.ini` and `user.css` to it
+- Copy `color.ini` and `user.css` into it
 - Create a `README.md` in it with the following structure 
 ```markdown
 # THEME_NAME
 
 ## Screenshots
 
-[Put at least one image here]
+[Put at least one image per color scheme here]
 
 ## More
 
@@ -53,3 +53,4 @@ For bugs and requesting new features use the GitHub issues.
 
 If you are unsure about which channel to use, go for Spectrum.
 
+NOTE: Spotify ad-blocked version is not supported.

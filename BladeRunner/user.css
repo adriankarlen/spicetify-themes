@@ -1,6 +1,10 @@
 :root {
-	--bar-height: 120px;
+	--bar-height: 100px;
 }
+* {
+	font-family: "Nasalization", "Arial", sans-serif !important;
+}
+
 
 /*Round corner cover image*/
 .card-image,
@@ -13,7 +17,6 @@
 }
 
 /*Hide some annoying elements like profile name and pic, upgrade button and device connect bar at bottom, new playlist button*/
-.profile.content-top-bar__profile-link,
 .upgrade-button,
 .view-player .remote-playback-bar,
 .LeftSidebarNewPlaylistButton__button {
